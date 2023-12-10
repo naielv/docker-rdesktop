@@ -32,7 +32,8 @@ RUN \
     plasma-desktop \
     plasma-workspace \
     qml-module-qt-labs-platform \
-    systemsettings && \
+    systemsettings \
+    chromium-browser vlc && \
   echo "**** kde tweaks ****" && \
   sed -i \
     's/applications:org.kde.discover.desktop,/applications:org.kde.konsole.desktop,/g' \
